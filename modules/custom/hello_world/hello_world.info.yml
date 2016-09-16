@@ -1,0 +1,5 @@
+name: Hello World
+type: module
+description: My module that prints out hello world
+core: 8.x
+package: Custom

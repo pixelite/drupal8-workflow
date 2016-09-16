@@ -1,0 +1,30 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+function photofolio_bootstrap_preprocess_page_title(&$variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    if ($node->getType() == 'recipe') {
+
+      // Create a variable for the author's username
+      $author = $node->getOwner();
+      $variables['username'] = $author->getUsername();
+
+      // Create a variable for the node publication date
+      $date = $node->getCreatedTime();
+      $variables['published_date'] = format_date($date, 'long');
+
+      //$variables['byline'] = t('This node was written by @username on @date',
+      //array('@username' => $author->getUsername(), '@date' =>
+      //format_date($date, 'long')));
+    }
+  }
+}
+function photofolio_bootstrap_theme_suggestions_page_alter(&$suggestions, $variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $suggestions[] = 'page__' . $node->getType();
+  }
+}

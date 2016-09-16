@@ -1,0 +1,27 @@
+@media screen and (min-width: 800px) {
+  body.sidebar-first .layout-sidebar-first {
+    width: 30%;
+    float: left;
+  }
+
+  body.sidebar-first .layout-content {
+    width: 70%;
+    float: right;
+  }
+
+  body.two-sidebars .layout-sidebar-first {
+    width: 20%;
+    float: left;
+    margin-left: -80%;
+  }
+  body.two-sidebars .layout-sidebar-second {
+    width: 20%;
+    float: right;
+  }
+  body.two-sidebars .layout-content {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+  }
+
+}

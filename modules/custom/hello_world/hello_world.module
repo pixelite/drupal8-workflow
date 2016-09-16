@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains hello_world.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function hello_world_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the hello_world module.
+    case 'help.page.hello_world':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My module that prints out hello world') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function hello_world_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'node_recipe_edit_form') {
+    $form['options']['#open'] = TRUE;
+  }
+  $user = \Drupal::currentUser();
+  if (!$user->hasPermission('administer content')) {
+    $form['field_cuisines']['#access'] = FALSE;
+  }
+}
+

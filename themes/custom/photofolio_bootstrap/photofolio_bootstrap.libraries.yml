@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+font-awesome:
+  css:
+    theme:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css: {type: external, minified: true}

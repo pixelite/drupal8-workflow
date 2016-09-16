@@ -1,0 +1,7 @@
+name: EventBrite Formatter
+type: module
+description: Displays an EventBrite ID as a rendered form
+core: 8.x
+package: Custom
+dependencies:
+  - text

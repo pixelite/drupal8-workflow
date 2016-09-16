@@ -1,0 +1,9 @@
+
+downloads_widget.downloads_widget_form:
+  path: '/admin/content/downloads-widget'
+  defaults:
+    _form: '\Drupal\downloads_widget\Form\DownloadsWidgetForm'
+    _title: 'Downloads Widget Form'
+  requirements:
+    _permission: 'download documents'
+  

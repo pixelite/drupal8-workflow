@@ -1,0 +1,8 @@
+name: Downloads Widget
+type: module
+description: Allow users to download files directly
+core: 8.x
+package: Custom
+dependencies:
+  - file
+  - file_entity

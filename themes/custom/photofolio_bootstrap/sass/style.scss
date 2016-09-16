@@ -1,0 +1,40 @@
+/**
+ * Place your custom styles here.
+ */
+$text_color: #589fe8;
+@mixin heading_text {
+  font-family: Georgia, sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+.header-wrapper {
+  background: #333 url(../images/bg.jpg) no-repeat 0 0;
+  background-size: cover;
+  text-align: center;
+}
+h1.page-header {
+  color: $text_color;
+  padding: 5em 0;
+  background: rgba(0, 0, 0, .5);
+  @include heading_text;
+}
+.recipes-style-view h3 {
+  text-align: center;
+}
+.recipes-image-wrapper {
+  position: relative;
+  border: 1px solid red;
+}
+h3 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: $text_color;
+  @include heading_text;
+  a {
+    color: #fff;
+  }
+}
+.byline {
+  @include heading_text;
+}
+

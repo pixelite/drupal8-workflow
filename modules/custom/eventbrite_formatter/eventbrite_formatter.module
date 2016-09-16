@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains eventbrite_formatter.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function eventbrite_formatter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the eventbrite_formatter module.
+    case 'help.page.eventbrite_formatter':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Displays an EventBrite ID as a rendered form') . '</p>';
+      return $output;
+
+    default:
+  }
+}
