@@ -1,0 +1,19 @@
+uuid: 40bdd89b-2d6f-4e82-a2bc-029ec1a69fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.file.field_pass_phrase
+    - file_entity.type.document
+id: file.document.field_pass_phrase
+field_name: field_pass_phrase
+entity_type: file
+bundle: document
+label: 'Pass phrase'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

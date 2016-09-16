@@ -1,0 +1,22 @@
+uuid: fa330b69-9394-4fda-a0c6-37c32b52a088
+langcode: en
+status: true
+dependencies:
+  theme:
+    - photofolio_bootstrap
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: photofolio_bootstrap_local_tasks
+theme: photofolio_bootstrap
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

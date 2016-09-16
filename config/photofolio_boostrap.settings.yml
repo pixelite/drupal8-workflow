@@ -1,0 +1,21 @@
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://drupal-8-1-9.dd:8083/themes/custom/photofolio_bootstrap/favicon.ico'
+  use_default: 1
+schemas:
+  bootstrap: 8000
+  photofolio_boostrap: 8000
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  node_user_picture: 1
+logo:
+  path: ''
+  url: ''
+  use_default: 1
+cdn_jsdelivr_theme: spacelab
+navbar_position: fixed-top
+table_responsive: '-1'
+table: ''

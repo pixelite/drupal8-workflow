@@ -1,0 +1,13 @@
+uuid: 3df24e68-328e-43f9-bf1c-8651b017f12d
+langcode: en
+status: true
+dependencies: {  }
+id: chef
+label: chef
+weight: 3
+is_admin: null
+permissions:
+  - 'create recipe content'
+  - 'delete own recipe content'
+  - 'edit own recipe content'
+  - 'view files'

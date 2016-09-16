@@ -1,0 +1,33 @@
+uuid: 8e810c66-a91c-47be-b757-6eb284ed8e01
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_approx_cooking_time
+field_name: field_approx_cooking_time
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0-30 minutes'
+      label: '0-30 minutes'
+    -
+      value: '30-60 minutes'
+      label: '30-60 minutes'
+    -
+      value: '1-4 hours'
+      label: '1-4 hours'
+    -
+      value: '5-12 hours'
+      label: '5-12 hours'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

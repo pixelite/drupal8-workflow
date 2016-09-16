@@ -1,0 +1,41 @@
+uuid: 5f5cf1a7-db71-4dad-b5d0-765cadbd399e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_cuisines
+    - field.field.node.recipe.field_diffi
+    - field.field.node.recipe.field_images
+    - field.field.node.recipe.field_ingredients
+    - field.field.node.recipe.field_off_site_recipe
+    - field.field.node.recipe.field_rating
+    - field.field.node.recipe.field_steps
+    - node.type.recipe
+  module:
+    - text
+    - user
+id: node.recipe.teaser
+targetEntityType: node
+bundle: recipe
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_cuisines: true
+  field_diffi: true
+  field_images: true
+  field_ingredients: true
+  field_off_site_recipe: true
+  field_rating: true
+  field_steps: true
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: e2f8e4e3-67a4-43c3-b873-139baf5cd5cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - photofolio_bootstrap
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: photofolio_bootstrap_help
+theme: photofolio_bootstrap
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

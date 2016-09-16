@@ -1,0 +1,25 @@
+uuid: 02ea679f-d2b9-47ed-837f-f8d612a738f6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a0b1d65f-8d8d-44fd-a06f-7d83b583d287'
+  module:
+    - block_content
+  theme:
+    - photofolio_boostrap
+id: photofolio_boostrap_contactinformation
+theme: photofolio_boostrap
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:a0b1d65f-8d8d-44fd-a06f-7d83b583d287'
+settings:
+  id: 'block_content:a0b1d65f-8d8d-44fd-a06f-7d83b583d287'
+  label: 'Contact information'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

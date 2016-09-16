@@ -1,0 +1,21 @@
+uuid: 6e1f136e-efd4-4e6b-add8-2a3799b88bfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_another_eventbrite_id
+    - node.type.page
+  module:
+    - text
+id: node.page.field_another_eventbrite_id
+field_name: field_another_eventbrite_id
+entity_type: node
+bundle: page
+label: 'Another EventBrite ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

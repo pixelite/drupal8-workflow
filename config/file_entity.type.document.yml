@@ -1,0 +1,21 @@
+uuid: a2b83e65-7ae3-4af0-864d-1c5ec5dfd3c8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OtIlBdCep0qNwWmVmUZ-V-DwDbyyPqMvCYxa590IsxY
+id: document
+label: Document
+description: 'A <em>Document</em> file is written information.'
+mimetypes:
+  - text/plain
+  - application/msword
+  - application/vnd.ms-excel
+  - application/pdf
+  - application/vnd.ms-powerpoint
+  - application/vnd.oasis.opendocument.text
+  - application/vnd.oasis.opendocument.spreadsheet
+  - application/vnd.oasis.opendocument.presentation
+  - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+  - application/vnd.openxmlformats-officedocument.presentationml.presentation
+  - application/vnd.openxmlformats-officedocument.wordprocessingml.document

@@ -1,0 +1,119 @@
+uuid: 6ba8d2ae-7482-4f05-a571-1bf9e6d1f0c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_cuisines
+    - field.field.node.recipe.field_diffi
+    - field.field.node.recipe.field_images
+    - field.field.node.recipe.field_ingredients
+    - field.field.node.recipe.field_off_site_recipe
+    - field.field.node.recipe.field_rating
+    - field.field.node.recipe.field_steps
+    - image.style.thumbnail
+    - node.type.recipe
+  module:
+    - image
+    - link
+    - path
+    - text
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_cuisines:
+    weight: 37
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+  field_diffi:
+    weight: 35
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_images:
+    weight: 34
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_ingredients:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_off_site_recipe:
+    weight: 38
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_rating:
+    weight: 36
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_steps:
+    weight: 33
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 044a695b-3ad7-493a-a7f0-6b0196c5dbcf
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - photofolio_bootstrap
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: photofolio_bootstrap_powered
+theme: photofolio_bootstrap
+region: '-1'
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

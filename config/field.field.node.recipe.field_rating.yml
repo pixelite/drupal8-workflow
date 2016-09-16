@@ -1,0 +1,21 @@
+uuid: c477d0b7-b5d3-45d7-a67b-01ebc9d854d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.recipe
+  module:
+    - options
+id: node.recipe.field_rating
+field_name: field_rating
+entity_type: node
+bundle: recipe
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

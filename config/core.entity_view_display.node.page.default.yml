@@ -1,0 +1,38 @@
+uuid: de0362e6-6c0b-4cfb-b22e-06c7a873878a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_another_eventbrite_id
+    - field.field.node.page.field_calls_to_action
+    - node.type.page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_another_eventbrite_id:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_calls_to_action: true
+  langcode: true

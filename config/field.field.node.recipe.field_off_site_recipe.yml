@@ -1,0 +1,23 @@
+uuid: 8bc33005-de74-4a6e-abdb-b3ffcb8eda80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_off_site_recipe
+    - node.type.recipe
+  module:
+    - link
+id: node.recipe.field_off_site_recipe
+field_name: field_off_site_recipe
+entity_type: node
+bundle: recipe
+label: 'Off-site Recipe'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

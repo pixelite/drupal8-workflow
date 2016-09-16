@@ -1,0 +1,22 @@
+uuid: fb583107-3ee3-44e4-afe0-9ad50bbbac27
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - photofolio_bootstrap
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: photofolio_bootstrap_search
+theme: photofolio_bootstrap
+region: '-1'
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

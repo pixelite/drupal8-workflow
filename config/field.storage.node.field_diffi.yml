@@ -1,0 +1,30 @@
+uuid: 0df3f1a7-c309-4407-82e2-b6607cec173f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_diffi
+field_name: field_diffi
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: Easy
+    -
+      value: '1'
+      label: Intermediate
+    -
+      value: '2'
+      label: Difficult
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

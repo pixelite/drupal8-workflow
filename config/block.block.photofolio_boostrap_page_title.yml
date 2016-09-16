@@ -1,0 +1,20 @@
+uuid: 70b66d95-ee5a-4abd-8b8e-8d85d5def6c4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - photofolio_boostrap
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: photofolio_boostrap_page_title
+theme: photofolio_boostrap
+region: header
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

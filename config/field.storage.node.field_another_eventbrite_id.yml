@@ -1,0 +1,20 @@
+uuid: d390bc5b-8216-4c52-837a-8665b228a9dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_another_eventbrite_id
+field_name: field_another_eventbrite_id
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

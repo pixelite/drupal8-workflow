@@ -1,0 +1,22 @@
+uuid: 3c9af227-1efa-44b8-a9d3-91abbbbf0227
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - photofolio_bootstrap
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: photofolio_bootstrap_content
+theme: photofolio_bootstrap
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

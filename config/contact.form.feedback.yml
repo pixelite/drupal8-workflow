@@ -1,0 +1,12 @@
+uuid: 1906debd-a441-4005-837b-1266b99801c7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - suzanne@evolvingweb.ca
+reply: ''
+weight: 0

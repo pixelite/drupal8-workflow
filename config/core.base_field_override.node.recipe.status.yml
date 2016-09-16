@@ -1,0 +1,22 @@
+uuid: 5fc33ac9-874d-4c06-a7d4-16f3f957be8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recipe
+id: node.recipe.status
+field_name: status
+entity_type: node
+bundle: recipe
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,30 @@
+uuid: b64e7b4f-b9e5-4d0a-9c86-e2022f0fe135
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recipes
+  module:
+    - system
+    - views
+  theme:
+    - photofolio
+id: photofolio_views_block__recipes_block_1
+theme: photofolio
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:recipes-block_1'
+settings:
+  id: 'views_block:recipes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

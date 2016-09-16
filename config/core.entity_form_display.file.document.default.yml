@@ -1,0 +1,27 @@
+uuid: 3ca8ce40-71c4-4faf-831d-158cff2f7e27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.file.document.field_pass_phrase
+    - file_entity.type.document
+id: file.document.default
+targetEntityType: file
+bundle: document
+mode: default
+content:
+  field_pass_phrase:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  filename:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

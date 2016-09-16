@@ -1,0 +1,21 @@
+uuid: 90214ecc-2156-4cba-9eea-aec8ba02439a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_approx_cooking_time
+    - node.type.article
+  module:
+    - options
+id: node.article.field_approx_cooking_time
+field_name: field_approx_cooking_time
+entity_type: node
+bundle: article
+label: 'Approx Cooking Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

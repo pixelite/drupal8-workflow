@@ -1,0 +1,58 @@
+uuid: 25f14d28-384d-4559-9d7d-69866ccd7bdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.file.document.field_pass_phrase
+    - file_entity.type.document
+  module:
+    - file_entity
+id: file.document.default
+targetEntityType: file
+bundle: document
+mode: default
+content:
+  field_pass_phrase:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  filemime:
+    type: string
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  filename:
+    type: string
+    label: hidden
+    weight: -5
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  filesize:
+    type: file_size
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    type: uri_link
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  uri:
+    type: file_image
+    label: hidden
+    weight: -5
+    settings:
+      title: field_image_title_text
+      alt: field_image_alt_text
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden: {  }

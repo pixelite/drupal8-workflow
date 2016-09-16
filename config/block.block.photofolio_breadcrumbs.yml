@@ -1,0 +1,22 @@
+uuid: 618e2b93-6712-42b0-8019-9980eca09a28
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - photofolio
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: photofolio_breadcrumbs
+theme: photofolio
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
